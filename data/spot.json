@@ -1,7 +1,7 @@
 {
-  "silver": null,
+  "silver": 57.0,
   "gold": null,
   "platinum": null,
-  "updated": null,
-  "source": "gold-api.com"
+  "updated": "2026-11-19",
+  "source": "Approximate, from Kitco / SD Bullion; set by hand"
 }

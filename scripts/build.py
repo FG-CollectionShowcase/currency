@@ -174,7 +174,7 @@ def attrs(c):
 
 def build_coin(c, prev, nxt):
     facts = [("Country", c["country"]), ("Denomination", c["denomination"]), ("Series", c["series"]),
-             ("Year", c["year_disp"]), ("Mint mark", c["mint_mark"] or ("none" if c["year"] and c["item_type"] == "coin" else None)),
+             ("Year", c["year_disp"]), ("Mint mark", c["mint_mark"] or None),
              ("Variety", c["variety"]), ("Catalog ref", c["catalog_ref"]), ("Serial", c["serial"]),
              ("Composition", c["composition"]),
              ("Weight", f'{c["weight_g"]:g} g' if c["weight_g"] else None),

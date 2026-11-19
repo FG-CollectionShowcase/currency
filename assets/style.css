@@ -80,3 +80,10 @@ dt{color:var(--muted)}dd{margin:0}
 .coin.lg.note{width:min(460px,88vw);aspect-ratio:2.35/1;border-radius:4px}
 svg.ph rect{fill:#cfd8c4;stroke:#9aab8a;stroke-width:1.5}
 svg.ph.note{aspect-ratio:auto}
+/* photos are pocket shots, not cut-out coins: show as rounded squares */
+img.coin{border-radius:8px !important;object-fit:cover}
+.pocket img.coin{width:88%;aspect-ratio:1}
+.pocket img.coin.note{aspect-ratio:1.7/1}
+img.coin.lg{width:min(380px,80vw);aspect-ratio:auto;object-fit:contain;border-radius:8px}
+img.coin.lg.note{width:min(520px,88vw)}
+.pocket{min-width:0}
